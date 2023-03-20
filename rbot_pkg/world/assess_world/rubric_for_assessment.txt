@@ -1,0 +1,26 @@
+10am mon 30th JANUARY 2023
+
+
+rubric for assessment
+
+bare pass needs these first three elements 
+create a urdf model of a robot that will load in ignition gazebo in the assessment world
+
+create a README file for the repository with instructions for how to load the file, and any other instructions to use the functionality you have developed
+
+On visual inspection the design would be able to move the balls in some way, and is an appropriate size/design to navigate the maze
+
+better grade
+The robot can move in gazebo using a teleoperation node of some sort
+Collision models exist so that your model interacts correctly with the simulated world
+
+You have a launch file to launch all of those things
+you will have been regularly updating the repo in labcode, and the project shows a clear progression
+
+add sensors to the model to enable teleoperation without the gui of ignition
+
+best grades (you do not need to do all these, but significant development in one, or a lower level of development in more than one)
+you could develop an easier to use gui than the teloperation in a terminal window (rqt)
+you develop some level of autonomy
+you implement methods that would enable the task to be completed more efficiently
+you may be using advanced techniques in git like branching
